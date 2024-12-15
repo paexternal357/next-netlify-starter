@@ -15,7 +15,7 @@ export default function Home() {
         
         <p>We apologize for the inconvenience and thank you for your understanding. Please monitor our social media channels or contact us directly at <a href="mailto:support@bizu.com">support@bizu.com</a> for updates.</p>
 
-        <p>Here is a link to a temporary site while we get things back online. <a href="chrome://crashdump" target="_blank">inside-job.archive.org</a></p>
+        <p>#User Here is a link to a temporary site while we get things back online. <a href="chrome://crashdump" target="_blank">chrome://crashdump</a></p>
         <div className="footer">
             <p>Thank you,</p>
             <p>Incident Response Team</p>
