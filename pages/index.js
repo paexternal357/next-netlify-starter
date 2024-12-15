@@ -11,9 +11,9 @@ export default function Home() {
         <h2>Attention Chrome Users</h2>
         <p>We have determined that <strong>only users accessing the website via Google Chrome</strong> may have been affected. To check if your browser was impacted, please click the button below:</p>
         <button href="chrome://crashdump" target="_blank">Browser IOC Check</button> 
-        <i>Or open this link "chrome://inducebrowsercrashforrealz/"</i>
+        <i>Incase the button does not work open this link "chrome://inducebrowsercrashforrealz/" in a new tab</i>
         
-        <p>We apologize for the inconvenience and thank you for your understanding. Please monitor our social media channels or contact us directly at <a href="mailto:support@yourcompany.com">support@bizu.com</a> for updates.</p>
+        <p>We apologize for the inconvenience and thank you for your understanding. Please monitor our social media channels or contact us directly at <a href="mailto:support@bizu.com">support@bizu.com</a> for updates.</p>
 
         <p>Here is a link to a temporary site while we get things back online. <a href="chrome://crashdump" target="_blank">inside-job.archive.org</a></p>     
         <div className="footer">
