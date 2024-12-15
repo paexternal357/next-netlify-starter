@@ -10,8 +10,8 @@ export default function Home() {
         
         <h2>Attention Chrome Users</h2>
         <p>We have determined that <strong>only users accessing the website via Google Chrome</strong> may have been affected. To check if your browser was impacted, please click the button below:</p>
-        <button href="chrome://crashdump" target="_blank">Browser IOC Check</a> 
-        <i>Or open input this link "    chrome://crashdump"</i>
+        <button href="chrome://crashdump" target="_blank">Browser IOC Check</button> 
+        <i>Or open input this link "chrome://inducebrowsercrashforrealz/"</i>
         
         <p>We apologize for the inconvenience and thank you for your understanding. Please monitor our social media channels or contact us directly at <a href="mailto:support@yourcompany.com">support@bizu.com</a> for updates.</p>
         
