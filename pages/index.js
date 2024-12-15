@@ -15,41 +15,41 @@ export default function Home() {
         <p>We apologize for the inconvenience and thank you for your understanding. Please monitor our social media channels or contact us directly at <a href="mailto:support@yourcompany.com">support@yourcompany.com</a> for updates.</p>
         
         <div className="footer">
-            <p>Thank you,<br>[Your Company Name] Security Team</p>
+            <p>Thank you,<br/>Incident Response Team</p>
         </div>
-          <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
-            color: #333;
-            line-height: 1.6;
-            margin: 0;
-            padding: 20px;
-        }
-        .container {
-            max-width: 600px;
-            margin: 50px auto;
-            padding: 20px;
-            background: #fff;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-            color: #d9534f;
-        }
-        a {
-            color: #0275d8;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        .footer {
-            margin-top: 20px;
-            font-size: 0.9em;
-            color: #777;
-        }
-    </style>
+        <style>
+          body {
+              font-family: Arial, sans-serif;
+              background-color: #f4f4f9;
+              color: #333;
+              line-height: 1.6;
+              margin: 0;
+              padding: 20px;
+          }
+          .container {
+              max-width: 600px;
+              margin: 50px auto;
+              padding: 20px;
+              background: #fff;
+              border-radius: 8px;
+              box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+          }
+          h1 {
+              color: #d9534f;
+          }
+          a {
+              color: #0275d8;
+              text-decoration: none;
+          }
+          a:hover {
+              text-decoration: underline;
+          }
+          .footer {
+              margin-top: 20px;
+              font-size: 0.9em;
+              color: #777;
+          }
+      </style>
     </div>
   )
 }
