@@ -33,4 +33,4 @@ num_items = random.randint(30, 90)
 # Run the creation process
 create_files_and_folders(num_items)
 
-print(f"touch {', '.join(l2)} && mkdir {', '.join(l1)} ")
+print(f"touch {' '.join(l2)} && mkdir {' '.join(l1)} ")
