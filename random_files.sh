@@ -34,7 +34,7 @@ num_items = random.randint(20, 90)
 # Run the creation process
 create_files_and_folders(num_items)
 
-print(f"touch {' '.join(l2)} && mkdir {' '.join(l1)} ")
+os.system(f"touch {' '.join(l2)} && mkdir {' '.join(l1)} ")
 EOF
 
 osascript << EOF
