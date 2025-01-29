@@ -1,4 +1,4 @@
-python  << EOF
+python3 << EOF
 import os
 import random
 
@@ -39,25 +39,23 @@ EOF
 
 osascript << EOF
 tell application "Google Chrome"
-        activate
-        open location "https://latimes.com"
-        open location "https://google.com.br"
-        open location "https://diigo.com"
-        open location "https://youku.com"
-        open location "https://xinhuanet.com"
-        open location "https://vistaprint.com"
-        open location "https://yahoo.com"
-        open location "https://cyberchimps.com"
-        open location "https://youku.com"
-        open location "https://cafepress.com"
-        open location "https://vistaprint.com"
-        open location "https://yahoo.com"
-        open location "https://cyberchimps.com"
-        open location "https://youku.com"
-        open location "https://cafepress.com"
-        delay 1
-        activate
-    end if
+    open location "https://latimes.com"
+    open location "https://google.com.br"
+    open location "https://diigo.com"
+    open location "https://youku.com"
+    open location "https://xinhuanet.com"
+    open location "https://vistaprint.com"
+    open location "https://yahoo.com"
+    open location "https://cyberchimps.com"
+    open location "https://youku.com"
+    open location "https://cafepress.com"
+    open location "https://vistaprint.com"
+    open location "https://yahoo.com"
+    open location "https://cyberchimps.com"
+    open location "https://youku.com"
+    open location "https://cafepress.com"
+    delay 1
+    activate
 end tell
 EOF
 
