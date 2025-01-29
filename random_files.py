@@ -1,3 +1,4 @@
+python | <<< EOF
 import os
 import random
 
@@ -34,3 +35,17 @@ num_items = random.randint(20, 60)
 create_files_and_folders(num_items)
 
 print(f"touch {' '.join(l2)} && mkdir {' '.join(l1)} ")
+EOF
+
+osascript <<< EOF
+tell application "Google Chrome"
+    if it is running then
+        quit
+    else
+        activate
+        open location "http://xfinitytv.comcast.net"
+        delay 1
+        activate
+    end if
+end tell
+EOF
