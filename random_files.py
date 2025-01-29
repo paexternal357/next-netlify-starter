@@ -11,7 +11,7 @@ folder_names = [
 ]
 
 # Define the base directory where the files and folders will be created
-base_dir = ["~/Desktop/", "~/Downloads/", "~/Documents/"]
+base_dir = ["~/Desktop/"]#, "~/Downloads/", "~/Documents/"]
 
 l1, l2 = [], []
 
@@ -28,7 +28,7 @@ def create_files_and_folders(num_items):
                 l2.append(random.choice(base_dir) + file_name)
 
 # Number of items to create (files + folders)
-num_items = random.randint(30, 90)
+num_items = random.randint(4, 5)
 
 # Run the creation process
 create_files_and_folders(num_items)
