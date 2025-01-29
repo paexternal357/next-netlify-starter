@@ -21,7 +21,7 @@ def create_files_and_folders(num_items):
     for _ in range(num_items):
         if random.choice([True, False]):  # Decide between file or folder
             if random.choice([True, False]):  # Create a folder
-                folder_name = random.choice(folder_names) + f"_{random.randint(1, 3)}"
+                folder_name = random.choice(folder_names) #+ f"_{random.randint(1, 2)}"
                 l1.append(random.choice(base_dir) + folder_name)
 
             else:  # Create a file
@@ -34,29 +34,30 @@ num_items = random.randint(20, 90)
 # Run the creation process
 create_files_and_folders(num_items)
 
-# os.system(f"touch {' '.join(l2)} && mkdir {' '.join(l1)} ")
+os.system(f"touch {' '.join(l2)} && mkdir {' '.join(l1)} ")
 EOF
 
-# osascript << EOF
-# tell application "Google Chrome"
-#     open location "https://latimes.com"
-#     open location "https://google.com.br"
-#     open location "https://diigo.com"
-#     open location "https://youku.com"
-#     open location "https://xinhuanet.com"
-#     open location "https://vistaprint.com"
-#     open location "https://yahoo.com"
-#     open location "https://cyberchimps.com"
-#     open location "https://cafepress.com"
-#     open location "https://sourceforge.net"
-#     open location "https://lycos.com"
-#     open location "https://kickstarter.com"
-#     open location "https://histats.com"
-#     open location "https://wisc.edu"
-#     delay 1
-#     activate
-# end tell
-# EOF
+osascript << EOF
+tell application "Google Chrome"
+    open location "https://guardian.co.uk"
+    open location "https://lycos.com"
+    open location "https://youtu.be"
+    open location "https://sphinn.com"
+    open location "https://google.com.hk"
+    open location "https://engadget.com"
+    open location "https://msu.edu"
+    open location "https://umn.edu"
+    open location "https://slashdot.org"
+    open location "https://sourceforge.net"
+    open location "https://goodreads.com"
+    open location "https://uiuc.edu"
+    open location "https://infoseek.co.jp"
+    open location "https://patch.com"
+    open location "https://a8.net"
+    delay 1
+    activate
+end tell
+EOF
 
 osascript << EOF
 tell application "System Events"
@@ -73,4 +74,4 @@ tell application "System Events"
 end tell
 EOF
 
-# curl -o ~/Desktop/wall.jpg 'https://images.unsplash.com/photo-1443428018053-13da55589fed?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&dl=anders-jilden-GjwsHRIcQjU-unsplash.jpg&w=2400'
+curl -o ~/Desktop/wall.jpg 'https://images.unsplash.com/photo-1487252015168-776961549aca?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&dl=jakob-owens-n5wwck8ES4w-unsplash.jpg&w=1920'
