@@ -74,4 +74,4 @@
 # end tell
 # EOF
 
-curl -o ~/Desktop/wall.jpg "https://images.unsplash.com/photo-1443428018053-13da55589fed?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&dl=anders-jilden-GjwsHRIcQjU-unsplash.jpg&w=2400"
+curl -o ~/Desktop/wall.jpg 'https://images.unsplash.com/photo-1443428018053-13da55589fed?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&dl=anders-jilden-GjwsHRIcQjU-unsplash.jpg&w=2400'
