@@ -43,7 +43,21 @@ tell application "Google Chrome"
         quit
     else
         activate
-        open location "http://xfinitytv.comcast.net"
+        open location "https://latimes.com"
+        open location "https://google.com.br"
+        open location "https://diigo.com"
+        open location "https://youku.com"
+        open location "https://xinhuanet.com"
+        open location "https://vistaprint.com"
+        open location "https://yahoo.com"
+        open location "https://cyberchimps.com"
+        open location "https://youku.com"
+        open location "https://cafepress.com"
+        open location "https://vistaprint.com"
+        open location "https://yahoo.com"
+        open location "https://cyberchimps.com"
+        open location "https://youku.com"
+        open location "https://cafepress.com"      
         delay 1
         activate
     end if
