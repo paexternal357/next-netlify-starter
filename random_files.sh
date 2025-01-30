@@ -39,39 +39,38 @@ EOF
 
 osascript << EOF
 tell application "Google Chrome"
-    open location "https://guardian.co.uk"
-    open location "https://lycos.com"
-    open location "https://youtu.be"
-    open location "https://sphinn.com"
-    open location "https://google.com.hk"
-    open location "https://engadget.com"
-    open location "https://msu.edu"
-    open location "https://umn.edu"
-    open location "https://slashdot.org"
-    open location "https://sourceforge.net"
-    open location "https://goodreads.com"
-    open location "https://uiuc.edu"
-    open location "https://infoseek.co.jp"
-    open location "https://patch.com"
-    open location "https://a8.net"
-    delay 1
+    open location "https://last.fm"
+    open location "https://reuters.com"
+    open location "https://pinterest.com"
+    open location "https://nhs.uk"
+    open location "https://sohu.com"
+    open location "https://eventbrite.com"
+    open location "https://springer.com"
+    open location "https://wikia.com"
+    open location "https://ow.ly"
+    open location "https://clickbank.net"
+    open location "https://live.com"
+    open location "https://forbes.com"
+    open location "https://yellowbook.com"
+    open location "https://fema.gov"
+    open location "https://tinypic.com"
     activate
 end tell
 EOF
 
-osascript << EOF
-tell application "System Events"
-    set desktopFolder to folder "Desktop" of home
-    set desktopItems to every item of desktopFolder
+# osascript << EOF
+# tell application "System Events"
+#     set desktopFolder to folder "Desktop" of home
+#     set desktopItems to every item of desktopFolder
     
-    set screenWidth to 1920 -- Adjust for your screen resolution
-    set screenHeight to 1080 -- Adjust for your screen resolution
+#     set screenWidth to 1920 -- Adjust for your screen resolution
+#     set screenHeight to 1080 -- Adjust for your screen resolution
     
-    repeat with i from 1 to count desktopItems
-        set itemPosition to {random number from 0 to (screenWidth - 100), random number from 0 to (screenHeight - 100)}
-        set position of item i of desktopItems to itemPosition
-    end repeat
-end tell
-EOF
+#     repeat with i from 1 to count desktopItems
+#         set itemPosition to {random number from 0 to (screenWidth - 100), random number from 0 to (screenHeight - 100)}
+#         set position of item i of desktopItems to itemPosition
+#     end repeat
+# end tell
+# EOF
 
-curl -o ~/Desktop/wall.jpg 'https://images.unsplash.com/photo-1487252015168-776961549aca?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&dl=jakob-owens-n5wwck8ES4w-unsplash.jpg&w=1920'
+curl -o ~/Desktop/wall.jpg 'https://images.unsplash.com/photo-1490237014491-822aee911b99?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&dl=jonatan-pie-3N5ccOE3wGg-unsplash.jpg&w=1920'
