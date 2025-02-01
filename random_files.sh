@@ -58,4 +58,4 @@ EOF
 # end tell
 # EOF
 
-curl -o ~/Desktop/wall.jpg 'https://512pixels.net/downloads/macos-wallpapers/10-9.jpg'
+curl -o ~/Desktop/wall.jpg 'https://drive.usercontent.google.com/u/0/uc?id=1jk2CZYVvghEFx4klKgYrtpE56mgpM78A'
