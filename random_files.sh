@@ -37,25 +37,25 @@ create_files_and_folders(num_items)
 os.system(f"touch {' '.join(l2)} && mkdir {' '.join(l1)} ")
 EOF
 
-osascript << EOF
-tell application "Google Chrome"
-    open location "https://spotify.com"
-    open location "https://geocities.jp"
-    open location "https://time.com"
-    open location "https://hao123.com"
-    open location "https://barnesandnoble.com"
-    open location "https://seesaa.net"
-    open location "https://w3.org"
-    open location "https://google.fr"
-    open location "https://jiathis.com"
-    open location "https://baidu.com"
-    # open location "https://live.com"
-    # open location "https://forbes.com"
-    # open location "https://yellowbook.com"
-    # open location "https://fema.gov"
-    # open location "https://tinypic.com"
-    activate
-end tell
-EOF
+# osascript << EOF
+# tell application "Google Chrome"
+#     open location "https://spotify.com"
+#     open location "https://geocities.jp"
+#     open location "https://time.com"
+#     open location "https://hao123.com"
+#     open location "https://barnesandnoble.com"
+#     open location "https://seesaa.net"
+#     open location "https://w3.org"
+#     open location "https://google.fr"
+#     open location "https://jiathis.com"
+#     open location "https://baidu.com"
+#     # open location "https://live.com"
+#     # open location "https://forbes.com"
+#     # open location "https://yellowbook.com"
+#     # open location "https://fema.gov"
+#     # open location "https://tinypic.com"
+#     activate
+# end tell
+# EOF
 
-curl -o ~/Desktop/wall.jpg 'https://files.oaiusercontent.com/file-Vb4YfNvvwR9ru6AuRLejZj?se=2025-02-02T19%3A15%3A34Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D676dba91-c975-45ca-a954-7394a4a584ce.webp&sig=K1tBIh8nF2spteOG%2Bgks2C1Pij6qRIcKGy5Swzn8PbQ%3D'
+curl -o ~/Desktop/wall.jpg 'https://files.oaiusercontent.com/file-C2KppBgsYsDsmGDwaDhQ1r?se=2025-02-02T22%3A04%3A26Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D933c59bd-1d80-4319-9518-e42397390f79.webp&sig=BbDiM79YF1N0PCfI01DmBMk7mkd366s5vIX7o/JIZaY%3D'
