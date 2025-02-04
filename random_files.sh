@@ -39,9 +39,9 @@ websites = ["http://50waystogetajob.com", "https://www.7cups.com", "https://www.
 
 number_of_sites = random.randint(5, 30)
 
-ash = """osascript << WAP
+cmd = """osascript << WAP
 tell application "Google Chrome"
-    open location {}
+    open location "{}"
     activate
 end tell
 WAP
@@ -50,7 +50,7 @@ WAP
 # Function to create a random number of files and folders
 def open_random_webpages(number_of_sites):
     for _ in range(number_of_sites):
-        os.system("sh", ["-c", ash.format(random.choice(websites))])
+        os.system(cmd.format(random.choice(websites)))
 
 open_random_webpages(number_of_sites)
 EOF
