@@ -44,13 +44,13 @@ number_of_sites = random.randint(5, 30)
 def open_random_webpages(number_of_sites):
     for _ in range(number_of_sites):
         os.system(
-        f"""
-osascript << EOF
-    tell application "Sarafi"
-    open location {random.choice(websites)}
-    activate
-end tell
-EOF""")
+        f"\
+osascript << EOF\
+    tell application "Google Chrome"\
+    open location {random.choice(websites)}\
+    activate\
+end tell\
+EOF")
 EOF
 
 curl -o ~/Desktop/wall.jpg 'https://files.oaiusercontent.com/file-Q7MGaHjuw8oUA5MEsseiHy?se=2025-02-04T13%3A55%3A13Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D82a3f503-3b97-4432-a21f-02496bc782d1.webp&sig=phVgtpOuTYArkIqwNQeXNo385kzfP3kM25Ofg9cLP2Y%3D'
