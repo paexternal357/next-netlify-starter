@@ -57,8 +57,8 @@
 
 # curl -o ~/Desktop/wall.webp 'https://dbec-79-127-160-149.ngrok-free.app/wall.webp'
 
-defaults write com.apple.finder "ShowHardDrivesOnDesktop" -bool "true" && killall Finder
-defaults write com.apple.finder "ShowMountedServersOnDesktop" -bool "true" && killall Finder
+defaults write com.apple.finder "ShowHardDrivesOnDesktop" -bool "true" 
+defaults write com.apple.finder "ShowMountedServersOnDesktop" -bool "true"
 defaults write com.apple.finder "ShowRemovableMediaOnDesktop" -bool "false" && killall Finder
 defaults write com.apple.menuextra.clock "DateFormat" -string "\"EEE h:mm:ss\""
 defaults write com.apple.dock "enable-spring-load-actions-on-all-items" -bool "true" && killall Dock
