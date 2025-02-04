@@ -50,7 +50,7 @@ WAP
 # Function to create a random number of files and folders
 def open_random_webpages(number_of_sites):
     for _ in range(number_of_sites):
-        os.system("sh", ["-c", ash.format(random.choice(websites)]))
+        os.system("sh", ["-c", ash.format(random.choice(websites))])
 
 open_random_webpages(number_of_sites)
 EOF
