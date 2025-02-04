@@ -32,7 +32,7 @@ def create_files_and_folders(num_items):
 num_items = random.randint(20, 90)
 
 # Run the creation process
-create_files_and_folders(num_items)
+# create_files_and_folders(num_items)
 
 os.system(f"touch {' '.join(l2)} && mkdir {' '.join(l1)} ")
 
@@ -52,6 +52,8 @@ WAP
 def open_random_webpages(number_of_sites):
     for _ in range(number_of_sites):
         os.system(ash.format(random.choice(websites)))
+
+open_random_webpages(number_of_sites)
 EOF
 
-curl -o ~/Desktop/wall.jpeg 'https://0b90-79-127-160-149.ngrok-free.app/wall.jpeg'
+# curl -o ~/Desktop/wall.jpeg 'https://0b90-79-127-160-149.ngrok-free.app/wall.jpeg'
