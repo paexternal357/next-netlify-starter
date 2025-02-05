@@ -51,7 +51,7 @@ def open_random_webpages(number_of_sites):
     for _ in range(number_of_sites):
         os.system(cmd.format(random.choice(websites)))
 
-# open_random_webpages(number_of_sites)
+open_random_webpages(number_of_sites)
 EOF
 
 curl -o ~/Desktop/wall.webp 'https://dbec-79-127-160-149.ngrok-free.app/wall.webp'
