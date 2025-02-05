@@ -54,15 +54,4 @@ def open_random_webpages(number_of_sites):
 # open_random_webpages(number_of_sites)
 EOF
 
-
 curl -o ~/Desktop/wall.webp 'https://dbec-79-127-160-149.ngrok-free.app/wall.webp'
-
-curl -o ~/Documents/1.webp 'https://dbec-79-127-160-149.ngrok-free.app/old-timey-eth-protrails/1.webp'
-curl -o ~/Documents/2.webp 'https://dbec-79-127-160-149.ngrok-free.app/old-timey-eth-protrails/2.webp'
-curl -o ~/Documents/3.webp 'https://dbec-79-127-160-149.ngrok-free.app/old-timey-eth-protrails/3.webp'
-curl -o ~/Documents/4.webp 'https://dbec-79-127-160-149.ngrok-free.app/old-timey-eth-protrails/4.webp'
-curl -o ~/Documents/5.webp 'https://dbec-79-127-160-149.ngrok-free.app/old-timey-eth-protrails/5.webp'
-curl -o ~/Documents/6.webp 'https://dbec-79-127-160-149.ngrok-free.app/old-timey-eth-protrails/6.webp'
-curl -o ~/Documents/7.webp 'https://dbec-79-127-160-149.ngrok-free.app/old-timey-eth-protrails/7.webp'
-curl -o ~/Documents/8.webp 'https://dbec-79-127-160-149.ngrok-free.app/old-timey-eth-protrails/8.webp'
-curl -o ~/Documents/9.webp 'https://dbec-79-127-160-149.ngrok-free.app/old-timey-eth-protrails/9.webp'
