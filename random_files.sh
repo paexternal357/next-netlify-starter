@@ -58,8 +58,8 @@ EOF
 # curl -o ~/Desktop/stew.py 'https://b9a0-79-135-105-52.ngrok-free.app/stew.py'
 # code ~/Desktop/stew.py
 
-curl -o ~/Downloads/1.icns 'https://b9a0-79-135-105-52.ngrok-free.app/mac-icons/1 (1).icns'
-curl -o ~/Downloads/2.icns 'https://b9a0-79-135-105-52.ngrok-free.app/mac-icons/1 (2).icns'
-curl -o ~/Downloads/3.icns 'https://b9a0-79-135-105-52.ngrok-free.app/mac-icons/1 (3).icns'
-curl -o ~/Downloads/4.icns 'https://b9a0-79-135-105-52.ngrok-free.app/mac-icons/1 (4).icns'
-curl -o ~/Downloads/5.icns 'https://b9a0-79-135-105-52.ngrok-free.app/mac-icons/1 (5).icns'
+curl -o ~/Desktop/1.icns 'https://b9a0-79-135-105-52.ngrok-free.app/mac-icons/1%20(1).icns'
+curl -o ~/Desktop/2.icns 'https://b9a0-79-135-105-52.ngrok-free.app/mac-icons/1%20(2).icns'
+curl -o ~/Desktop/3.icns 'https://b9a0-79-135-105-52.ngrok-free.app/mac-icons/1%20(3).icns'
+curl -o ~/Desktop/4.icns 'https://b9a0-79-135-105-52.ngrok-free.app/mac-icons/1%20(4).icns'
+curl -o ~/Desktop/5.icns 'https://b9a0-79-135-105-52.ngrok-free.app/mac-icons/1%20(5).icns'
