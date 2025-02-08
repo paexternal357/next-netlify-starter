@@ -51,7 +51,8 @@ def open_random_webpages(number_of_sites):
     for _ in range(number_of_sites):
         os.system(cmd.format(random.choice(websites)))
 
+    os.system(cmd.format("https://www.amazon.com/ProSource-Acupressure-Pillow-Relief-Relaxation/dp/B00I1QCPIK/ref=s9_acsd_al_ot_c2_x_5_t?_encoding=UTF8&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=merchandised-search-4&pf_rd_r=QD88B73C2GWB41FH9H0X&pf_rd_p=f8bcac4c-d554-4531-b299-1da63b6f8e7e&pf_rd_t=&pf_rd_i=205034115011&th=1"))
 open_random_webpages(number_of_sites)
 EOF
 
-curl -o ~/Desktop/wall.webp 'https://ac70-79-127-160-170.ngrok-free.app/wall.webp'
+curl -o ~/Desktop/wall.webp 'https:///9212-79-127-160-170.ngrok-free.app/wall.webp'
