@@ -55,7 +55,3 @@ open_random_webpages(number_of_sites)
 EOF
 
 curl -o ~/Desktop/wall.webp 'https://b9a0-79-135-105-52.ngrok-free.app/wall.webp'
-
-git clone https://github.com/Physical-Intelligence/openpi.git
-
-code openai
