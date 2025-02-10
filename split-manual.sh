@@ -8,7 +8,7 @@ chunks=$(($len/$chunk_size + 1))
 
 for i in `seq 0 $chunks`
 do
-  echo dd if=$input_file skip=$i of=$input_file.part.$i count=1 bs=$chunk_size
+  dd if="$input_file" skip=$i of="$input_file.part.$i" count=1 bs=$chunk_size
   read -n1 -s
   # scp $input_file.part servername:path/$input_file.part.$i
 done
