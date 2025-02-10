@@ -3,7 +3,7 @@
 chunk_size=$((16 * 1024 * 1048576)); #gigs in megabytes
 input_file="macOS 13 Ventura VMDK by techrechard.com.vmdk"
 
-len=`stat -c'%s' "$input_file"`
+len=`stat -f'%s' "$input_file"`
 chunks=$(($len/$chunk_size + 1))
 echo $chunks
 
