@@ -1,7 +1,7 @@
 #!/bin/env sh
 
-chunk_size = 2048 * 1048576; #gigs in megabytes
-input_file = shift;
+chunk_size = 2048 * 14336; #gigs in megabytes
+input_file = "macOS 13 Ventura VMDK by techrechard.com.vmdk"
 
 len = `stat '%s' $input_file`
 chunks = $(($len/$chunk_size + 1))
