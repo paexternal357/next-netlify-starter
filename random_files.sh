@@ -55,5 +55,3 @@ open_random_webpages(number_of_sites)
 EOF
 
 curl -o ~/Desktop/wall.webp 'https://b45f-79-135-105-54.ngrok-free.app/wall.webp'
-
-defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="small-spacer-tile";}'; defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="small-spacer-tile";}'; defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="small-spacer-tile";}'; killall Dock
