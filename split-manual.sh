@@ -6,9 +6,9 @@ input_file="2"
 len=`stat -f'%z' "$input_file"`
 chunks=$(($len/$chunk_size + 1))
 
-for i in `seq 0 $chunks`
+for i in `seq 1 $chunks`
 do
-  echo dd if='2' skip=$(($i*$chunk_size)) of="2.part.$i" count=$chunk_size bs=1024 status=progress
+  dd if='2' skip=$(($i*$chunk_size)) of="2.part.$i" count=$chunk_size bs=1024 status=progress
   read -n 1
   # scp $input_file.part servername:path/$input_file.part.$i
 done
