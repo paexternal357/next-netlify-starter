@@ -9,7 +9,7 @@ echo $chunks
 
 for i in `seq 0 $chunks`
 do
-  dd if=$input_file skip=$i of=$input_file.part.$i count=1 bs=$chunk_size
+  echo dd if=$input_file skip=$i of=$input_file.part.$i count=1 bs=$chunk_size
   read -n1 -s
   # scp $input_file.part servername:path/$input_file.part.$i
 done
