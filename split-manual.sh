@@ -5,7 +5,6 @@ input_file="macOS 13 Ventura VMDK by techrechard.com.vmdk"
 
 len=`stat -f'%z' "$input_file"`
 chunks=$(($len/$chunk_size + 1))
-echo $chunks
 
 for i in `seq 0 $chunks`
 do
