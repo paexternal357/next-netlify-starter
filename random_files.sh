@@ -1,4 +1,3 @@
-radn -n 1 -s
 python3 << EOF
 import os
 import random
