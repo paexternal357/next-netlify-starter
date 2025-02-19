@@ -51,11 +51,11 @@ def open_random_webpages(number_of_sites):
 
 # open_random_webpages(number_of_sites)
 
-icon_cmd = "curl -o '~/Desktop/{}.png' 'https://1a6f-79-127-160-200.ngrok-free.app/mac-icons/downloads/1%20({}).png'"
+icon_cmd = "curl -o ~/Desktop/{}.png 'https://1a6f-79-127-160-200.ngrok-free.app/mac-icons/downloads/1%20({}).png'"
 number_of_icons = 4
 for _ in range(number_of_icons):
         icon_number = random.randint(1, 159)
-        os.system(icon_cmd.format(icon_number,icon_number))
+        print(icon_cmd.format(icon_number,icon_number))
 
 EOF
 
